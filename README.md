@@ -21,7 +21,7 @@ The Kendryte K210, used in the Maix Dock and other Sipeed boards, is an affordab
 
 Copy the program from `code.py` and run it using the MaixPy IDE . Write down some digits on white paper with black marker (as shown above) and put it in front of the camera.  The board will segment the image, attempt to recognize each digit and should produce  output similar to the one shown below. If required adjust the `thresholds` for blob detections using the, `Threshold Editor` window in MaixPy IDE
 
-![MaixPy IDE showing output](images/maixpy_ide_fps_mnist.png)
+![MaixPy IDE showing output](images/maixpy_ide_fps_mnist_2.png)
 
 
 
