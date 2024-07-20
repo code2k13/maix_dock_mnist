@@ -24,13 +24,10 @@ while True:
     blobs = img.find_blobs([(73, 200)], pixels_threshold=50, area_threshold=50, merge=False)
 
     if blobs:
-        tile_index = 0
 
         for b in blobs:
 
-            #tmp = img.draw_rectangle(b[0:4])
             roi =  b[0:4]
-
             x0 = max(0,roi[0]-4)
             y0 = max(0,roi[1]-4)
             x1 = min(QQVGA_WIDTH-x0,roi[2]+8)
@@ -55,4 +52,4 @@ while True:
         fps = clock.fps()
         print("%2.1f fps" % fps)
 
-    time.sleep_ms(200)
+    #time.sleep_ms(200)
